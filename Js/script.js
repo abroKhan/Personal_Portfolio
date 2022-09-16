@@ -20,7 +20,7 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 // < === Section Active Link === >
 
-const sections = Document.querySelectorAll("sections[id]");
+const sections = document.querySelectorAll("sections[id]");
 window.addEventListener("scroll", scrollActive);
 function scrollActive() {
   const scrollY = window.pageYOffset;
