@@ -109,7 +109,29 @@ img {
     margin-bottom: .25rem;
 }
 
+/* ================ 
+    LAYOUT
+===================*/
+.bd-grid {
+    width: calc(100% - 2rem);
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 2rem;
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+}
 
+
+
+
+
+
+
+
+/* ================ 
+    MEDIA QUERRIES
+===================*/
 @media screen and (min-width : 768px) {
     :root {
         --h1-font-size: 2.25rem;
