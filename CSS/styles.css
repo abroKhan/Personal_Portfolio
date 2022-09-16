@@ -40,7 +40,17 @@
     --z-fixed: 100;
 }
 
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+body
 
 
 
