@@ -195,6 +195,23 @@ img {
     color: var(--text-color);
 }
 
+/* ================ 
+    HOME SECTION
+===================*/
+.home__container {
+    height: calc(100vh - var(--header-height));
+    align-items: center;
+}
+
+.home__data {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
 
 
 /* ================ 
