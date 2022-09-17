@@ -256,6 +256,18 @@ img {
     background-color: var(--first-color-dark);
 }
 
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--first-color-lighten);
+    font-weight: var(--font-semi-bold);
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+}
+
+.button:hover {
+    background: var(--first-color-dark);
+}
 
 /* ================ 
     MEDIA QUERRIES
