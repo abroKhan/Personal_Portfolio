@@ -282,7 +282,20 @@ img {
     color: var(--first-color-lighten);
 }
 
+/* ================ 
+    ABOUT SECTION
+===================*/
+.about__container {
+    row-gap: 2rem;
+}
 
+.about__data {
+    text-align: center;
+}
+
+.about__description {
+    margin-bottom: var(--mb-4);
+}
 
 
 
