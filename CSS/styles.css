@@ -320,6 +320,12 @@ img {
     margin-bottom: var(--mb-3);
 }
 
+.about__information-icon {
+    font-size: 1.5rem;
+    color: var(--first-color);
+    margin-right: var(--mb-4);
+}
+
 
 
 
