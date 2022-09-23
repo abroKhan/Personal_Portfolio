@@ -353,9 +353,10 @@ img {
 
 .skills__bar {
     position: absolute;
+    width: 100%;
     height: .25rem;
     bottom: -.75rem;
-    background-color: var(--first-color);
+    background: var(--first-color);
 }
 
 
