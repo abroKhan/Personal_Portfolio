@@ -326,6 +326,19 @@ img {
     margin-right: var(--mb-4);
 }
 
+/* ================ 
+    SKILLS SECTION
+===================*/
+.skills__container {
+    row-gap: 2rem;
+}
+
+.skills__subtitle {
+    font-size: var(--h3-font-size);
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-2);
+}
+
 
 
 
