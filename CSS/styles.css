@@ -434,6 +434,14 @@ img {
     transform: translate(-4px, -4px);
 }
 
+.education__line {
+    display: block;
+    height: 90%;
+    width: 2px;
+    background-color: var(--first-color);
+    transform: translate(5px, -4px);
+}
+
 
 
 
