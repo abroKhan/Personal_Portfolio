@@ -406,6 +406,23 @@ img {
     font-size: var(--smaller-font-size);
 }
 
+.education__year, .education__university {
+    text-align: right;
+}
+
+.education__time {
+    padding: 0 1rem;
+    justify-self: center;
+}
+
+.education__rounder {
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+}
 
 
 
