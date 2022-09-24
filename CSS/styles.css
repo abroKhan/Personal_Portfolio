@@ -424,6 +424,15 @@ img {
     border-radius: 50%;
 }
 
+.education__rounder::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--first-color);
+    border-radius: 50%;
+    transform: translate(-4px, -4px);
+}
 
 
 
