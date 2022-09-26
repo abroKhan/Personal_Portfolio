@@ -466,6 +466,15 @@ img {
     margin-bottom: var(--mb-2);
 }
 
+.services__title {
+    font-size: 1.25rem;
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-1);
+}
+
+.services__content:hover {
+    background-color: var(--first-color);
+}
 
 
 
