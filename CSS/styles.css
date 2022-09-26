@@ -476,6 +476,19 @@ img {
     background-color: var(--first-color);
 }
 
+.services__content:hover .services__icon {
+    background-color: var(--first-color-lighten);
+    color: var(--first-color);
+}
+
+.services__content:hover .services__title {
+    color: var(--first-color-lighten);
+}
+
+.services__content:hover .servces__description {
+    color: var(--first-color-lighten);
+}
+
 
 
 
