@@ -457,6 +457,15 @@ img {
     padding: 1.5rem .5rem;
 }
 
+.services__icon {
+    font-size: 2rem;
+    background-color: var(--first-color);
+    color: var(--first-color-lighten);
+    border-radius: 50%;
+    padding: .5rem;
+    margin-bottom: var(--mb-2);
+}
+
 
 
 
