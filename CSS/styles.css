@@ -505,6 +505,17 @@ img {
     text-align: center;
 }
 
+.project__title,
+.project__description {
+    color: var(--first-color-light);
+}
+
+.project__description {
+    margin-bottom: var(--mb-4);
+}
+
+
+
 
 
 
