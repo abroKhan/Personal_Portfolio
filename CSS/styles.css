@@ -546,6 +546,17 @@ img {
     border-radius: .5rem;
 }
 
+.works__link {
+    display: inline-flex;
+    font-size: 1.5rem;
+    background-color: var(--first-color-lighten);
+    color: var(--first-color);
+    padding: .25rem;
+    margin-bottom: var(--mb-2);
+}
+
+
+
 
 
 
