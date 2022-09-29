@@ -561,7 +561,13 @@ img {
     color: var(--first-color-lighten);
 }
 
+.works__img:hover .works__data {
+    bottom: 0;
+}
 
+/* ================ 
+    CONTACT SECTION
+===================*/
 
 
 
