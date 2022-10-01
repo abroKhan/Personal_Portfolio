@@ -583,7 +583,7 @@ img {
     margin-bottom: var(--mb-2);
 }
 
-.contact :: ::placeholder {
+.contact::placeholder {
     color: var(--first-color-dark);
     font-family: var(--body-font);
     font-weight: var(--font-medium);
