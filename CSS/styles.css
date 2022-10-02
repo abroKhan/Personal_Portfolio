@@ -701,4 +701,15 @@ img {
     .education__time {
         padding: 0 2rem;
     }
+
+    .project {
+        background: none;
+    }
+
+    .project__container {
+        background-color: var(--first-color);
+        grid-template-columns: 2fr 1.2fr;
+        border-radius: .5rem;
+        padding: 0 2rem;
+    }
 }
