@@ -737,4 +737,14 @@ img {
     .contact__info {
         padding-left: 3rem;
     }
+
+    .footer {
+        background: none;
+    }
+
+    .footer__container {
+        background-color: var(--first-color-darken);
+        border-radius: .5rem;
+        padding: 3rem;
+    }
 }
