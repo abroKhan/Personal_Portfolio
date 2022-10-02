@@ -748,3 +748,18 @@ img {
         padding: 3rem;
     }
 }
+
+@media screen and (min-width : 1024px) {
+    body {
+        margin: 0;
+        padding-left: var(--nav-width);
+    }
+
+    .l-header {
+        width: 0;
+    }
+
+    .nav__toggle, .nav__logo, .nav__close {
+        display: none;
+    }
+}
