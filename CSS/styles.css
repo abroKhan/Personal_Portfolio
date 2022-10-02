@@ -676,11 +676,24 @@ img {
         width: var(--nav-width);
     }
 
-    .about__container {
+    .about__container,
+    .skills__container {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .about__data {
         text-align: initial;
+    }
+
+    .about__description {
+        margin-bottom: var(--mb-5);
+    }
+
+    .about__img {
+        width: 220px;
+    }
+
+    .about__information {
+        padding-left: 4rem;
     }
 }
