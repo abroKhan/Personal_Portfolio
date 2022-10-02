@@ -677,7 +677,8 @@ img {
     }
 
     .about__container,
-    .skills__container {
+    .skills__container,
+    .services__container {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -695,5 +696,9 @@ img {
 
     .about__information {
         padding-left: 4rem;
+    }
+
+    .education__time {
+        padding: 0 2rem;
     }
 }
