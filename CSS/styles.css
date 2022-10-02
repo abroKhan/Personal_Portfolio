@@ -659,14 +659,14 @@ img {
     MEDIA QUERRIES
 ===================*/
 @media screen and (min-width : 768px) {
-    /* :root {
+    :root {
         --h1-font-size: 2.25rem;
         --h2-font-size: 1.5rem;
         --h3-font-size: 1.25rem;
         --normal-font-size: 1rem;
         --small-font-size: .875rem;
         --smaller-font-size: .813rem;
-    } */
+    }
 
     .home__button {
         width: initial;
@@ -678,7 +678,8 @@ img {
 
     .about__container,
     .skills__container,
-    .services__container {
+    .services__container,
+    .works__container {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -711,5 +712,18 @@ img {
         grid-template-columns: 2fr 1.2fr;
         border-radius: .5rem;
         padding: 0 2rem;
+    }
+
+    .project__data {
+        padding: 3rem 0;
+    }
+
+    .project__title, .project__data {
+        text-align: initial;
+    }
+
+    .project__img {
+        width: 230px;
+        align-self: flex-end;
     }
 }
